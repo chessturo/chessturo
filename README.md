@@ -1,5 +1,11 @@
 # 👋 Hi! I'm Mitchell.
 
+<!--
+This animation was generated using `asciinema` and `svg-term` (and a lot of work in vim to make the timings smooth).
+If you want to do this yourself, 
+  :'<,'>s/[0-9.]\+/\=printf("%.2g", INCREMENT*(line(".") - line("'<")) + START_TIME)
+is going to be your friend on replacing the timings and making them consistent
+-->
 <p align="center">
   <img src="./resources/no-place-like-home.svg" alt="no place like home" /> 
 </p>
