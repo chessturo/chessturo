@@ -1,0 +1,8 @@
+figcaption
+fa-github
+fa-fw
+sr-only
+href
+glyphicon
+glyphicon-envelope
+mailto

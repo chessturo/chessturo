@@ -1,0 +1,15 @@
+#splash {
+  color: white;
+  background-color: hsl(119, 57%, 59%);
+  font-size:4.5em
+}
+
+#name-links {
+  color: white;
+  font-size:1em;
+}
+
+.content {
+  background-color: hsl(0, 0%, 95%)
+}
+
