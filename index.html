@@ -10,6 +10,8 @@
 
     <!-- Custom styles -->
     <link href="./index.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="utf-8" />
   </head>
   <body>
     <div class="container-fluid">
@@ -19,12 +21,12 @@
           <figure class="figure">
             <span class="name">Mitchell Levy</span>
             <figcaption class="figure-caption text-center" id="name-links">
-              <div class="position-relative d-inline-block">
+              <div class="position-relative d-inline-block name-link-entry">
                 <span class="fab fa-github fa-fw" aria-hidden="true"></span>
                 <span class="sr-only">GitHub</span>
                 <a class="stretched-link" href="https://github.com/chessturo"></a>
               </div>
-              <div class="position-relative d-inline-block">
+              <div class="position-relative d-inline-block name-link-entry">
                 <span class="fas fa-envelope fa-fw" aria-hidden="true"></span>
                 <span class="sr-only">Email</span>
                 <a class="stretched-link" href="mailto:mlevy1@uw.edu"></a>
@@ -32,42 +34,61 @@
             </figcaption>
           </figure>
         </div>
+
         <!-- "scroll for more" icon -->
-        <div class="col-12 align-self-end d-flex justify-content-center">
-          <span class="fas fa-arrow-down" aria-hidden="true" id="scroll-for-more"></span>
+        <div class="col-12 mb-1 mb-lg-3 align-self-end d-flex justify-content-center">
+          <a href="#about-me" id="scroll-for-more">
+            <span class="fas fa-arrow-down" aria-hidden="true"></span>
+          </a>
         </div>
       </div>
 
-      <div class="row content pt-4 justify-content-center" id="about-me">
+      <div class="row content justify-content-center" id="about-me">
         <div class="col-md-8">
-          <h1>About Me</h1>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-          luctus urna mollis ipsum volutpat hendrerit sit amet eget quam.
-          Vivamus sollicitudin ex nunc, in semper lacus dictum ac. Morbi id
-          malesuada nisl. Proin ut erat ac dui consectetur consectetur. Ut
-          tempus est tempus tortor ornare, eu eleifend turpis tempor. Maecenas
-          imperdiet sem at nibh posuere mattis. Mauris hendrerit, augue at
-          placerat accumsan, nibh nunc lobortis mauris, blandit lobortis ante
-          mauris vel sapien. Cras commodo consectetur venenatis. Etiam vel
-          auctor lacus. Fusce iaculis ornare eleifend. Ut rhoncus metus dui, in
-          dignissim sapien imperdiet ut. Vivamus ex lectus, malesuada at
-          sollicitudin sed, pellentesque at neque. Sed at pellentesque quam.
-          Fusce vehicula luctus mi, vitae suscipit eros dapibus ut.</p>
+          <div class="row">
+            <div class="col"><h1>About Me</h1></div>
+          </div>
 
-          <p>Morbi efficitur, elit pharetra accumsan euismod, tellus nisl
-          cursus nisl, sed feugiat massa sem quis nunc. Fusce fringilla
-          tristique massa, sed aliquet ipsum pretium et. Mauris finibus
-          facilisis nibh, mattis vulputate augue sodales sit amet. Sed
-          fringilla odio dignissim, euismod metus sed, consequat nunc. Nullam
-          dapibus velit magna, eget congue eros congue a. Donec ut vehicula
-          elit. Pellentesque venenatis ex nec neque luctus elementum. Sed
-          commodo viverra lacus, eget efficitur enim mollis quis. Mauris a
-          viverra erat. Ut leo ex, viverra a nisl ut, efficitur tincidunt quam.
-          Suspendisse auctor lorem quam, vel ornare metus fermentum sit amet.
-          Curabitur id sodales felis, feugiat congue dui. Vestibulum in
-          hendrerit turpis, eget scelerisque lectus. Phasellus nec tempus
-          neque, eu auctor tortor. Vestibulum dictum vehicula turpis. Morbi
-          blandit nulla sed auctor ullamcorper. </p>
+          <div class="row">
+            <div class="col">
+              <div class="float-end mb-3 ms-lg-3 col-lg-3">
+                <img class="d-none d-lg-block img-fluid" src="img/Me.jpeg" alt="A photo of me" />
+                <img class="d-lg-none img-fluid" src="img/Me landscape.jpeg" alt="A photo of me" />
+              </div>
+              <p>Hey! I'm a student at the University of Washington's <a href="https://cs.uw.edu">
+                Paul G. Allen School of Computer Science of Engineering</a>,
+              where I'm currently focused on systems programming and its
+              applications. My personal interests tend to lie at inmost workings
+              of software and where it meets the hardware its running on. As
+              such, most of my <a href="https://github.com/chessturo"> personal
+                projects</a> tend to focus on topics related to programming
+              languages, networking, and OS/kernel level programming.</p>
+
+              <p>Beyond what I do at my desk, I'm an amateur pianist! Some of my
+              favorite piano composers include Chopin, Rachmaninoff, Liszt, and
+              Medtner. I'm also very interested in the exploration and
+              rediscovery of more obscure composers such as Alkan, Méreaux, and
+              others.</p>
+
+              <p>Aenean scelerisque consequat felis, eget dictum ipsum
+              scelerisque non. Ut at felis bibendum, laoreet sapien at,
+              faucibus dui. Vivamus lacinia risus in tellus bibendum, eget
+              ullamcorper magna commodo. Sed eu feugiat diam. Nulla facilisi.
+              Duis sed eros mauris. Fusce sollicitudin magna viverra,
+              pellentesque massa et, varius diam. Nulla bibendum ut nisl et
+              fermentum. Sed fringilla ultrices lacus nec porta. Curabitur quam
+              dolor, viverra et ligula vitae, euismod rutrum mauris. </p>
+
+              <p>Aenean scelerisque consequat felis, eget dictum ipsum
+              scelerisque non. Ut at felis bibendum, laoreet sapien at,
+              faucibus dui. Vivamus lacinia risus in tellus bibendum, eget
+              ullamcorper magna commodo. Sed eu feugiat diam. Nulla facilisi.
+              Duis sed eros mauris. Fusce sollicitudin magna viverra,
+              pellentesque massa et, varius diam. Nulla bibendum ut nisl et
+              fermentum. Sed fringilla ultrices lacus nec porta. Curabitur quam
+              dolor, viverra et ligula vitae, euismod rutrum mauris. </p>
+            </div>
+          </div>
         </div>
       </div>
 
